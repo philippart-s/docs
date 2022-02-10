@@ -2,8 +2,8 @@
 tasks:
   - name: Init the doc-rendering-engine
     init: |
-      - git clone --recurse-submodules https://github.com/ovh/docs-rendering.git /tmp/docs-rendering/
-      - /tmp/docs-rendering/docker/build.sh
+      git clone --recurse-submodules https://github.com/ovh/docs-rendering.git /tmp/docs-rendering/
+      /tmp/docs-rendering/docker/build.sh
     command: /tmp/docs-rendering/docker/run-container.sh
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
