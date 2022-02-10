@@ -23,15 +23,13 @@ We will be happy to take a look at your contributions. You can contribute to thi
 
 A good way to easily get started with contributions is [to fork the ovh/docs repo](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo), write your changes on your fork then [create a pull request (PR)](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) from your fork to the ovh/docs repo. Your PR must be done on the "develop" branch.
 
-If you want, you can contribute using GitPod (thanks to the _.gitpod.yml_ file), it will open a ready to code environment with [docs-rendering-engine](https://github.com/ovh/docs-rendering) initialized and launched (this is the reason that the project take a long time to open :wink:).
+If you want, you can contribute using GitPod (thanks to the _.gitpod.yml_ file), it will open a ready to code environment with [docs-rendering-engine](https://github.com/ovh/docs-rendering) initialized and launched (this is why the project take a long time to open :wink:).
 
-To view your page serve by the docs rendering engine you have to append the path of your page after `https://8080-user-docs-hash.gitpod-server.gitpod.io/gb/en/`.  
-For example to display the article on how to install Knative:
- - copy the `slug` entry in the root file (`product.en-gb.md`) of the kubernetes-k8s folder: `kubernetes`
- - copy the `slug` entry in the root file (`guide.en-gb-md`) of the installing-knative folder: `installing-knative`
- - append these two value at the previous URL: `https://8080-user-docs-hash.gitpod-server.gitpod.io/gb/en/kubernetes/installing-knative`
-
-You can also contribute by getting the source code on your computer.
+To see your page serve by the _docs rendering engine_ you must add your path page after `https://8080-user-docs-hash.gitpod-server.gitpod.io/gb/en/`.  
+For instance, to view the article about installing Knative:
+ - copy the `slug` entry present in the root file (`product.en-gb.md`) of the kubernetes-k8s folder: `kubernetes`
+ - copy the `slug` entry present in the root file (`guide.en-gb-md`) of the installing-knative folder: `installing-knative`
+ - append these two values at the previous URL: `https://8080-user-docs-hash.gitpod-server.gitpod.io/gb/en/kubernetes/installing-knative`
 
 Our guides editing team will then review your contribution and choose to edit, validate or reject it.
 
